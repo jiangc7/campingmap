@@ -1,0 +1,5 @@
+XSym
+0063
+6a940a85bec5f7438e0bf55a9ca73a9b
+../../../SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

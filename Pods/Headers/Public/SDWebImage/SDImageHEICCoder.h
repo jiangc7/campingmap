@@ -1,0 +1,5 @@
+XSym
+0054
+577877a57feba72193807c4c30fc0dc2
+../../../SDWebImage/SDWebImage/Core/SDImageHEICCoder.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

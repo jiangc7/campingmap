@@ -1,0 +1,5 @@
+XSym
+0056
+4424920b4ce9ec1a9889ad134de04204
+../../../SDWebImage/SDWebImage/Core/SDAnimatedImageRep.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

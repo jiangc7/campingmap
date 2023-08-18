@@ -1,0 +1,5 @@
+XSym
+0071
+c65b4311da763f64182ccffbe5567935
+../../../SDWebImage/SDWebImage/Private/SDImageIOAnimatedCoderInternal.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

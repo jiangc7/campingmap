@@ -1,0 +1,5 @@
+XSym
+0098
+c78c6e8cd4d09dd2daebf3cafd6bc8ae
+../../../SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAbstractDotView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

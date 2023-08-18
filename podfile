@@ -1,0 +1,17 @@
+
+platform :ios, "12.0"
+
+inhibit_all_warnings!
+
+target 'Campingsitedemo' do
+       
+        pod 'AFNetworking'     
+        pod 'SDCycleScrollView','>= 1.82'
+        pod 'HCSStarRatingView', '~> 1.5'
+        pod 'mob_secverify'
+        pod 'WechatOpenSDK'
+        pod 'TZImagePickerController' #iOS8 and later
+        pod 'TZImagePreviewController'
+        pod 'WechatOpenSDK'
+        pod 'RadioButton'
+end

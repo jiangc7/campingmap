@@ -1,0 +1,5 @@
+XSym
+0058
+4c02ac034aa3ea5887537bde70b6ad95
+../../../SDWebImage/SDWebImage/Core/SDImageCodersManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

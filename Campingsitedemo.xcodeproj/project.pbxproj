@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A47A75A9991D2A387FE84BD /* libPods-Campingsitedemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD27608A9F65D0A870A39EA3 /* libPods-Campingsitedemo.a */; };
+		EE1205F426F1F3FB000AA7FD /* JJKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1205F326F1F3FB000AA7FD /* JJKeyChain.m */; };
+		EE1205F726F3212F000AA7FD /* CPlogedViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1205F626F3212F000AA7FD /* CPlogedViewViewController.m */; };
+		EE2BFF4626E89A1400769B11 /* CPSplashview.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2BFF4526E89A1400769B11 /* CPSplashview.m */; };
+		EE2BFF4826E89BE300769B11 /* LaunchImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE2BFF4726E89BE300769B11 /* LaunchImage.jpg */; };
+		EE2BFF4A26E8D35A00769B11 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE2BFF4926E8D35A00769B11 /* LaunchImage.png */; };
+		EE2BFF5326E9B89E00769B11 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2BFF5226E9B88E00769B11 /* libc++.tbd */; };
+		EE2BFF5626E9E8FB00769B11 /* CPLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2BFF5526E9E8FB00769B11 /* CPLoginView.m */; };
+		EE402D1027B5022300B96C23 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE402D0F27B5022300B96C23 /* AuthenticationServices.framework */; };
+		EE453BD927675C7F004D62F0 /* camp180.png in Resources */ = {isa = PBXBuildFile; fileRef = EE453BD827675C7E004D62F0 /* camp180.png */; };
+		EE453BE3277032AC004D62F0 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = EE453BE2277032AC004D62F0 /* checked.png */; };
+		EE453BE5277032B4004D62F0 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = EE453BE4277032B4004D62F0 /* unchecked.png */; };
+		EE5E8E0B274B40B1006B429B /* tent28.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5E8E0A274B40AF006B429B /* tent28.png */; };
+		EE73D9682722927F00A94E96 /* Pods-Campingsitedemo.release.xcconfig in Sources */ = {isa = PBXBuildFile; fileRef = B4C150583F3C464DF95EB75F /* Pods-Campingsitedemo.release.xcconfig */; };
+		EE780D31277C731300A5EF63 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780D30277C731100A5EF63 /* CoreTelephony.framework */; };
+		EE780D36277D9DEF00A5EF63 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780D33277D9DEC00A5EF63 /* libWeChatSDK.a */; };
+		EE780D38277D9EBD00A5EF63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780D37277D9EBD00A5EF63 /* SystemConfiguration.framework */; };
+		EE7C23D3266B045B00F4665A /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C23D2266B045B00F4665A /* detailViewController.m */; };
+		EE7C23DA266BC71B00F4665A /* camping.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EE7C23D9266BC71A00F4665A /* camping.JPG */; };
+		EE7C23DD266E0D0A00F4665A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7C23DC266E0D0A00F4665A /* Icon@2x.png */; };
+		EE7C23E226798DAD00F4665A /* setPinController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C23E126798DAD00F4665A /* setPinController.m */; };
+		EE7E99282680A88A00B5225D /* CPToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7E99272680A88A00B5225D /* CPToolBar.m */; };
+		EE7E993F2683188300B5225D /* CLLocation+YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7E993C2683188300B5225D /* CLLocation+YCLocation.m */; };
+		EE7E99402683188300B5225D /* JXMapNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7E993D2683188300B5225D /* JXMapNavigationView.m */; };
+		EE7E99442687575E00B5225D /* CPlistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7E99432687575D00B5225D /* CPlistItem.m */; };
+		EE7E9948268DC63800B5225D /* CPListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7E9947268DC63600B5225D /* CPListLoader.m */; };
+		EE8164552667738600162CF2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8164542667738600162CF2 /* TableViewController.m */; };
+		EE8766582664D4210025540E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8766572664D4210025540E /* AppDelegate.m */; };
+		EE87665B2664D4210025540E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87665A2664D4210025540E /* SceneDelegate.m */; };
+		EE87665E2664D4210025540E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87665D2664D4210025540E /* ViewController.m */; };
+		EE8766632664D4240025540E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8766622664D4240025540E /* Assets.xcassets */; };
+		EE8766692664D4240025540E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8766682664D4240025540E /* main.m */; };
+		EE87669C26671C560025540E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87669B26671C560025540E /* MapKit.framework */; };
+		EE87669E26671C6E0025540E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE87669D26671C6E0025540E /* CoreLocation.framework */; };
+		EE8766A226671FBD0025540E /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8766A126671FBD0025540E /* MapAnnotation.m */; };
+		EE921B1F2693177F00C92AC5 /* CPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE921B1E2693177F00C92AC5 /* CPTableViewCell.m */; };
+		EEABD77C272FDE48001D3DB0 /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEABD77B272FDE48001D3DB0 /* HCSStarRatingView.m */; };
+		EEB16430275610CE004BB89D /* personInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1642F275610CE004BB89D /* personInfoViewController.m */; };
+		EEBB59E6278577C9007475FF /* CPrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBB59E5278577C7007475FF /* CPrentViewController.m */; };
+		EEBBE8CB26BFCE8A006CBA5B /* CustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBE8C826BFCE89006CBA5B /* CustomAnnotationView.m */; };
+		EEBBE8CC26BFCE8A006CBA5B /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBBE8C926BFCE89006CBA5B /* CustomCalloutView.m */; };
+		EEBBE8D226BFDDCD006CBA5B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBBE8D126BFDDCD006CBA5B /* Icon-Small.png */; };
+		EED87E74271FCABC0077F9BA /* addCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED87E73271FCABC0077F9BA /* addCommentView.m */; };
+		EEFC4950272B931900B9453F /* CPRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFC494F272B931900B9453F /* CPRegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4C150583F3C464DF95EB75F /* Pods-Campingsitedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campingsitedemo.release.xcconfig"; path = "Target Support Files/Pods-Campingsitedemo/Pods-Campingsitedemo.release.xcconfig"; sourceTree = "<group>"; };
+		CD27608A9F65D0A870A39EA3 /* libPods-Campingsitedemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campingsitedemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1205F026F0A5C5000AA7FD /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1205F226F1F3FB000AA7FD /* JJKeyChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJKeyChain.h; sourceTree = "<group>"; };
+		EE1205F326F1F3FB000AA7FD /* JJKeyChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJKeyChain.m; sourceTree = "<group>"; };
+		EE1205F526F3212F000AA7FD /* CPlogedViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPlogedViewViewController.h; sourceTree = "<group>"; };
+		EE1205F626F3212F000AA7FD /* CPlogedViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPlogedViewViewController.m; sourceTree = "<group>"; };
+		EE2BFF4426E89A1400769B11 /* CPSplashview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPSplashview.h; sourceTree = "<group>"; };
+		EE2BFF4526E89A1400769B11 /* CPSplashview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPSplashview.m; sourceTree = "<group>"; };
+		EE2BFF4726E89BE300769B11 /* LaunchImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = LaunchImage.jpg; path = ../../../Downloads/LaunchImage.jpg; sourceTree = "<group>"; };
+		EE2BFF4926E8D35A00769B11 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImage.png; path = ../../../Downloads/LaunchImage.png; sourceTree = "<group>"; };
+		EE2BFF5226E9B88E00769B11 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		EE2BFF5426E9E8FB00769B11 /* CPLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPLoginView.h; sourceTree = "<group>"; };
+		EE2BFF5526E9E8FB00769B11 /* CPLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPLoginView.m; sourceTree = "<group>"; };
+		EE402D0F27B5022300B96C23 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		EE453BD827675C7E004D62F0 /* camp180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camp180.png; sourceTree = "<group>"; };
+		EE453BE2277032AC004D62F0 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		EE453BE4277032B4004D62F0 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		EE5E8E092744A7CB006B429B /* Campingsitedemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Campingsitedemo.entitlements; sourceTree = "<group>"; };
+		EE5E8E0A274B40AF006B429B /* tent28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tent28.png; sourceTree = "<group>"; };
+		EE780D30277C731100A5EF63 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EE780D32277D9DEA00A5EF63 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		EE780D33277D9DEC00A5EF63 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		EE780D34277D9DEE00A5EF63 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		EE780D35277D9DEF00A5EF63 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		EE780D37277D9EBD00A5EF63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE7C23D1266B045B00F4665A /* detailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		EE7C23D2266B045B00F4665A /* detailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		EE7C23D9266BC71A00F4665A /* camping.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = camping.JPG; path = ../../../Downloads/camping.JPG; sourceTree = "<group>"; };
+		EE7C23DC266E0D0A00F4665A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../../Downloads/icon/Icon@2x.png"; sourceTree = "<group>"; };
+		EE7C23E026798DAD00F4665A /* setPinController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = setPinController.h; sourceTree = "<group>"; };
+		EE7C23E126798DAD00F4665A /* setPinController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = setPinController.m; sourceTree = "<group>"; };
+		EE7E99262680A88A00B5225D /* CPToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPToolBar.h; sourceTree = "<group>"; };
+		EE7E99272680A88A00B5225D /* CPToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPToolBar.m; sourceTree = "<group>"; };
+		EE7E993B2683188300B5225D /* CLLocation+YCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CLLocation+YCLocation.h"; path = "../../../Downloads/调用手机地图APP导航/调用手机地图APP导航/CLLocation+YCLocation.h"; sourceTree = "<group>"; };
+		EE7E993C2683188300B5225D /* CLLocation+YCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CLLocation+YCLocation.m"; path = "../../../Downloads/调用手机地图APP导航/调用手机地图APP导航/CLLocation+YCLocation.m"; sourceTree = "<group>"; };
+		EE7E993D2683188300B5225D /* JXMapNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXMapNavigationView.m; path = "../../../Downloads/调用手机地图APP导航/调用手机地图APP导航/JXMapNavigationView.m"; sourceTree = "<group>"; };
+		EE7E993E2683188300B5225D /* JXMapNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXMapNavigationView.h; path = "../../../Downloads/调用手机地图APP导航/调用手机地图APP导航/JXMapNavigationView.h"; sourceTree = "<group>"; };
+		EE7E99422687575D00B5225D /* CPlistItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPlistItem.h; sourceTree = "<group>"; };
+		EE7E99432687575D00B5225D /* CPlistItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPlistItem.m; sourceTree = "<group>"; };
+		EE7E9946268DC63600B5225D /* CPListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListLoader.h; sourceTree = "<group>"; };
+		EE7E9947268DC63600B5225D /* CPListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListLoader.m; sourceTree = "<group>"; };
+		EE8164532667738600162CF2 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EE8164542667738600162CF2 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EE8766532664D4210025540E /* Campingsitedemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campingsitedemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8766562664D4210025540E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE8766572664D4210025540E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE8766592664D4210025540E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		EE87665A2664D4210025540E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		EE87665C2664D4210025540E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE87665D2664D4210025540E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE8766622664D4240025540E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8766672664D4240025540E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8766682664D4240025540E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE87669B26671C560025540E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EE87669D26671C6E0025540E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EE8766A026671FBD0025540E /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapAnnotation.h; path = ../../Mapkitdemo/Mapkitdemo/MapAnnotation.h; sourceTree = "<group>"; };
+		EE8766A126671FBD0025540E /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapAnnotation.m; path = ../../Mapkitdemo/Mapkitdemo/MapAnnotation.m; sourceTree = "<group>"; };
+		EE921B1D2693177F00C92AC5 /* CPTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTableViewCell.h; sourceTree = "<group>"; };
+		EE921B1E2693177F00C92AC5 /* CPTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTableViewCell.m; sourceTree = "<group>"; };
+		EEABD77A272FDE48001D3DB0 /* HCSStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = Campingsitedemo/HCSStarRatingView.h; sourceTree = "<group>"; };
+		EEABD77B272FDE48001D3DB0 /* HCSStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = Campingsitedemo/HCSStarRatingView.m; sourceTree = "<group>"; };
+		EEB1642E275610CE004BB89D /* personInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = personInfoViewController.h; sourceTree = "<group>"; };
+		EEB1642F275610CE004BB89D /* personInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personInfoViewController.m; sourceTree = "<group>"; };
+		EEBB59E4278577C6007475FF /* CPrentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPrentViewController.h; sourceTree = "<group>"; };
+		EEBB59E5278577C7007475FF /* CPrentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPrentViewController.m; sourceTree = "<group>"; };
+		EEBBE8C726BFCE89006CBA5B /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCalloutView.h; path = ../../../Downloads/ZGaoDeMap/ZGaoDeMap/CustomCalloutView.h; sourceTree = "<group>"; };
+		EEBBE8C826BFCE89006CBA5B /* CustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotationView.m; path = ../../../Downloads/ZGaoDeMap/ZGaoDeMap/CustomAnnotationView.m; sourceTree = "<group>"; };
+		EEBBE8C926BFCE89006CBA5B /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCalloutView.m; path = ../../../Downloads/ZGaoDeMap/ZGaoDeMap/CustomCalloutView.m; sourceTree = "<group>"; };
+		EEBBE8CA26BFCE89006CBA5B /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotationView.h; path = ../../../Downloads/ZGaoDeMap/ZGaoDeMap/CustomAnnotationView.h; sourceTree = "<group>"; };
+		EEBBE8D126BFDDCD006CBA5B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../../Downloads/icon/Icon-Small.png"; sourceTree = "<group>"; };
+		EED87E71271FC8AA0077F9BA /* SuccessLoginDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuccessLoginDelegate.h; sourceTree = "<group>"; };
+		EED87E72271FCABC0077F9BA /* addCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addCommentView.h; sourceTree = "<group>"; };
+		EED87E73271FCABC0077F9BA /* addCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addCommentView.m; sourceTree = "<group>"; };
+		EED87E752720F7020077F9BA /* DetailShowDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailShowDelegate.h; sourceTree = "<group>"; };
+		EEFC494E272B931900B9453F /* CPRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRegisterViewController.h; sourceTree = "<group>"; };
+		EEFC494F272B931900B9453F /* CPRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRegisterViewController.m; sourceTree = "<group>"; };
+		FECC4C004CEC689EEFE01BCC /* Pods-Campingsitedemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campingsitedemo.debug.xcconfig"; path = "Target Support Files/Pods-Campingsitedemo/Pods-Campingsitedemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8766502664D4210025540E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE402D1027B5022300B96C23 /* AuthenticationServices.framework in Frameworks */,
+				EE780D38277D9EBD00A5EF63 /* SystemConfiguration.framework in Frameworks */,
+				EE780D36277D9DEF00A5EF63 /* libWeChatSDK.a in Frameworks */,
+				EE2BFF5326E9B89E00769B11 /* libc++.tbd in Frameworks */,
+				EE87669E26671C6E0025540E /* CoreLocation.framework in Frameworks */,
+				EE87669C26671C560025540E /* MapKit.framework in Frameworks */,
+				EE780D31277C731300A5EF63 /* CoreTelephony.framework in Frameworks */,
+				3A47A75A9991D2A387FE84BD /* libPods-Campingsitedemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF2CD8A010E0DEEDC83AF04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FECC4C004CEC689EEFE01BCC /* Pods-Campingsitedemo.debug.xcconfig */,
+				B4C150583F3C464DF95EB75F /* Pods-Campingsitedemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE7E994A268DC65800B5225D /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		EE87664A2664D4210025540E = {
+			isa = PBXGroup;
+			children = (
+				EEABD77A272FDE48001D3DB0 /* HCSStarRatingView.h */,
+				EEABD77B272FDE48001D3DB0 /* HCSStarRatingView.m */,
+				EE8766552664D4210025540E /* Campingsitedemo */,
+				EE8766542664D4210025540E /* Products */,
+				EE87669A26671C560025540E /* Frameworks */,
+				4CF2CD8A010E0DEEDC83AF04 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8766542664D4210025540E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8766532664D4210025540E /* Campingsitedemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8766552664D4210025540E /* Campingsitedemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE780D33277D9DEC00A5EF63 /* libWeChatSDK.a */,
+				EE780D32277D9DEA00A5EF63 /* WechatAuthSDK.h */,
+				EE780D35277D9DEF00A5EF63 /* WXApi.h */,
+				EE780D34277D9DEE00A5EF63 /* WXApiObject.h */,
+				EE5E8E092744A7CB006B429B /* Campingsitedemo.entitlements */,
+				EE2BFF4426E89A1400769B11 /* CPSplashview.h */,
+				EE2BFF4526E89A1400769B11 /* CPSplashview.m */,
+				EE7E994A268DC65800B5225D /* Loader */,
+				EE7E9946268DC63600B5225D /* CPListLoader.h */,
+				EE7E9947268DC63600B5225D /* CPListLoader.m */,
+				EE7E993B2683188300B5225D /* CLLocation+YCLocation.h */,
+				EE7E993C2683188300B5225D /* CLLocation+YCLocation.m */,
+				EE7E993E2683188300B5225D /* JXMapNavigationView.h */,
+				EE7E993D2683188300B5225D /* JXMapNavigationView.m */,
+				EE8766562664D4210025540E /* AppDelegate.h */,
+				EE8766572664D4210025540E /* AppDelegate.m */,
+				EE8766592664D4210025540E /* SceneDelegate.h */,
+				EE87665A2664D4210025540E /* SceneDelegate.m */,
+				EE8164532667738600162CF2 /* TableViewController.h */,
+				EE8164542667738600162CF2 /* TableViewController.m */,
+				EED87E71271FC8AA0077F9BA /* SuccessLoginDelegate.h */,
+				EE2BFF5426E9E8FB00769B11 /* CPLoginView.h */,
+				EE2BFF5526E9E8FB00769B11 /* CPLoginView.m */,
+				EEFC494E272B931900B9453F /* CPRegisterViewController.h */,
+				EEFC494F272B931900B9453F /* CPRegisterViewController.m */,
+				EE1205F526F3212F000AA7FD /* CPlogedViewViewController.h */,
+				EE1205F626F3212F000AA7FD /* CPlogedViewViewController.m */,
+				EEB1642E275610CE004BB89D /* personInfoViewController.h */,
+				EEB1642F275610CE004BB89D /* personInfoViewController.m */,
+				EE921B1D2693177F00C92AC5 /* CPTableViewCell.h */,
+				EE921B1E2693177F00C92AC5 /* CPTableViewCell.m */,
+				EE7E99422687575D00B5225D /* CPlistItem.h */,
+				EE7E99432687575D00B5225D /* CPlistItem.m */,
+				EE7C23D1266B045B00F4665A /* detailViewController.h */,
+				EE7C23D2266B045B00F4665A /* detailViewController.m */,
+				EED87E72271FCABC0077F9BA /* addCommentView.h */,
+				EED87E73271FCABC0077F9BA /* addCommentView.m */,
+				EEBBE8D126BFDDCD006CBA5B /* Icon-Small.png */,
+				EE453BD827675C7E004D62F0 /* camp180.png */,
+				EE87665C2664D4210025540E /* ViewController.h */,
+				EE87665D2664D4210025540E /* ViewController.m */,
+				EE7C23E026798DAD00F4665A /* setPinController.h */,
+				EE7C23E126798DAD00F4665A /* setPinController.m */,
+				EEBB59E4278577C6007475FF /* CPrentViewController.h */,
+				EEBB59E5278577C7007475FF /* CPrentViewController.m */,
+				EE7E99262680A88A00B5225D /* CPToolBar.h */,
+				EE7E99272680A88A00B5225D /* CPToolBar.m */,
+				EED87E752720F7020077F9BA /* DetailShowDelegate.h */,
+				EEBBE8CA26BFCE89006CBA5B /* CustomAnnotationView.h */,
+				EEBBE8C826BFCE89006CBA5B /* CustomAnnotationView.m */,
+				EEBBE8C726BFCE89006CBA5B /* CustomCalloutView.h */,
+				EEBBE8C926BFCE89006CBA5B /* CustomCalloutView.m */,
+				EE8766A026671FBD0025540E /* MapAnnotation.h */,
+				EE8766A126671FBD0025540E /* MapAnnotation.m */,
+				EE8766622664D4240025540E /* Assets.xcassets */,
+				EE453BE4277032B4004D62F0 /* unchecked.png */,
+				EE453BE2277032AC004D62F0 /* checked.png */,
+				EE2BFF4726E89BE300769B11 /* LaunchImage.jpg */,
+				EE2BFF4926E8D35A00769B11 /* LaunchImage.png */,
+				EE7C23D9266BC71A00F4665A /* camping.JPG */,
+				EE8766672664D4240025540E /* Info.plist */,
+				EE5E8E0A274B40AF006B429B /* tent28.png */,
+				EE7C23DC266E0D0A00F4665A /* Icon@2x.png */,
+				EE8766682664D4240025540E /* main.m */,
+				EE1205F226F1F3FB000AA7FD /* JJKeyChain.h */,
+				EE1205F326F1F3FB000AA7FD /* JJKeyChain.m */,
+			);
+			path = Campingsitedemo;
+			sourceTree = "<group>";
+		};
+		EE87669A26671C560025540E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE402D0F27B5022300B96C23 /* AuthenticationServices.framework */,
+				EE780D37277D9EBD00A5EF63 /* SystemConfiguration.framework */,
+				EE780D30277C731100A5EF63 /* CoreTelephony.framework */,
+				EE1205F026F0A5C5000AA7FD /* libAFNetworking.a */,
+				EE2BFF5226E9B88E00769B11 /* libc++.tbd */,
+				EE87669D26671C6E0025540E /* CoreLocation.framework */,
+				EE87669B26671C560025540E /* MapKit.framework */,
+				CD27608A9F65D0A870A39EA3 /* libPods-Campingsitedemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8766522664D4210025540E /* Campingsitedemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE87666C2664D4240025540E /* Build configuration list for PBXNativeTarget "Campingsitedemo" */;
+			buildPhases = (
+				242A489DFC9535A274E5B6DA /* [CP] Check Pods Manifest.lock */,
+				EE87664F2664D4210025540E /* Sources */,
+				EE8766502664D4210025540E /* Frameworks */,
+				EE8766512664D4210025540E /* Resources */,
+				7D28EAEC40FE9B1801212DEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Campingsitedemo;
+			productName = Campingsitedemo;
+			productReference = EE8766532664D4210025540E /* Campingsitedemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE87664B2664D4210025540E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE8766522664D4210025540E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EE87664E2664D4210025540E /* Build configuration list for PBXProject "Campingsitedemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = EE87664A2664D4210025540E;
+			productRefGroup = EE8766542664D4210025540E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8766522664D4210025540E /* Campingsitedemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8766512664D4210025540E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5E8E0B274B40B1006B429B /* tent28.png in Resources */,
+				EE453BD927675C7F004D62F0 /* camp180.png in Resources */,
+				EE8766632664D4240025540E /* Assets.xcassets in Resources */,
+				EE2BFF4826E89BE300769B11 /* LaunchImage.jpg in Resources */,
+				EE453BE5277032B4004D62F0 /* unchecked.png in Resources */,
+				EE2BFF4A26E8D35A00769B11 /* LaunchImage.png in Resources */,
+				EE7C23DD266E0D0A00F4665A /* Icon@2x.png in Resources */,
+				EE453BE3277032AC004D62F0 /* checked.png in Resources */,
+				EEBBE8D226BFDDCD006CBA5B /* Icon-Small.png in Resources */,
+				EE7C23DA266BC71B00F4665A /* camping.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		242A489DFC9535A274E5B6DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Campingsitedemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D28EAEC40FE9B1801212DEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campingsitedemo/Pods-Campingsitedemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campingsitedemo/Pods-Campingsitedemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Campingsitedemo/Pods-Campingsitedemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE87664F2664D4210025540E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE73D9682722927F00A94E96 /* Pods-Campingsitedemo.release.xcconfig in Sources */,
+				EE7E99442687575E00B5225D /* CPlistItem.m in Sources */,
+				EE87665E2664D4210025540E /* ViewController.m in Sources */,
+				EEB16430275610CE004BB89D /* personInfoViewController.m in Sources */,
+				EE2BFF4626E89A1400769B11 /* CPSplashview.m in Sources */,
+				EEBBE8CB26BFCE8A006CBA5B /* CustomAnnotationView.m in Sources */,
+				EE8164552667738600162CF2 /* TableViewController.m in Sources */,
+				EE921B1F2693177F00C92AC5 /* CPTableViewCell.m in Sources */,
+				EE7E993F2683188300B5225D /* CLLocation+YCLocation.m in Sources */,
+				EE8766582664D4210025540E /* AppDelegate.m in Sources */,
+				EEBBE8CC26BFCE8A006CBA5B /* CustomCalloutView.m in Sources */,
+				EEABD77C272FDE48001D3DB0 /* HCSStarRatingView.m in Sources */,
+				EE7C23D3266B045B00F4665A /* detailViewController.m in Sources */,
+				EE7E99282680A88A00B5225D /* CPToolBar.m in Sources */,
+				EEBB59E6278577C9007475FF /* CPrentViewController.m in Sources */,
+				EE7E99402683188300B5225D /* JXMapNavigationView.m in Sources */,
+				EE1205F726F3212F000AA7FD /* CPlogedViewViewController.m in Sources */,
+				EE7E9948268DC63800B5225D /* CPListLoader.m in Sources */,
+				EE7C23E226798DAD00F4665A /* setPinController.m in Sources */,
+				EED87E74271FCABC0077F9BA /* addCommentView.m in Sources */,
+				EE8766692664D4240025540E /* main.m in Sources */,
+				EE2BFF5626E9E8FB00769B11 /* CPLoginView.m in Sources */,
+				EEFC4950272B931900B9453F /* CPRegisterViewController.m in Sources */,
+				EE87665B2664D4210025540E /* SceneDelegate.m in Sources */,
+				EE8766A226671FBD0025540E /* MapAnnotation.m in Sources */,
+				EE1205F426F1F3FB000AA7FD /* JJKeyChain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE87666A2664D4240025540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE87666B2664D4240025540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE87666D2664D4240025540E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECC4C004CEC689EEFE01BCC /* Pods-Campingsitedemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CODE_SIGN_ENTITLEMENTS = Campingsitedemo/Campingsitedemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SQ65SB78F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SecVerifyDemo/SecVerifyDemo/ThirdLibs",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = Campingsitedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					WXApi.h,
+					libWeChatSDK.a,
+					WXApiObject.h,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Campingsitedemo/OpenSDK1.9.2_NoPay",
+					"$(PROJECT_DIR)/Campingsitedemo",
+				);
+				MARKETING_VERSION = 1.3.8;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDCycleScrollView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TZImagePickerController\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WechatOpenSDK\"",
+					"-iframework",
+					"\"${PODS_ROOT}/MOBFoundation/MOBFoundation\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Mobile\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Telecom\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Union\"",
+					"-Xclang",
+					"-fcompatibility-qualified-id-block-type-checking",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpjiang.campingmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE87666E2664D4240025540E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C150583F3C464DF95EB75F /* Pods-Campingsitedemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CODE_SIGN_ENTITLEMENTS = Campingsitedemo/Campingsitedemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SQ65SB78F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SecVerifyDemo/SecVerifyDemo/ThirdLibs",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = Campingsitedemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					WXApi.h,
+					libWeChatSDK.a,
+					WXApiObject.h,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Campingsitedemo/OpenSDK1.9.2_NoPay",
+					"$(PROJECT_DIR)/Campingsitedemo",
+				);
+				MARKETING_VERSION = 1.3.8;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDCycleScrollView\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TZImagePickerController\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/WechatOpenSDK\"",
+					"-iframework",
+					"\"${PODS_ROOT}/MOBFoundation/MOBFoundation\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Mobile\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Telecom\"",
+					"-iframework",
+					"\"${PODS_ROOT}/mob_secverify/SecVerify/PlatformSDK/Union\"",
+					"-Xclang",
+					"-fcompatibility-qualified-id-block-type-checking",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cpjiang.campingmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE87664E2664D4210025540E /* Build configuration list for PBXProject "Campingsitedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87666A2664D4240025540E /* Debug */,
+				EE87666B2664D4240025540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE87666C2664D4240025540E /* Build configuration list for PBXNativeTarget "Campingsitedemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE87666D2664D4240025540E /* Debug */,
+				EE87666E2664D4240025540E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE87664B2664D4210025540E /* Project object */;
+}

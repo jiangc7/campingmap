@@ -1,0 +1,5 @@
+XSym
+0057
+ff0632c6bf6f6ee7f01dbfd988791ec2
+../../../SDWebImage/SDWebImage/Core/UIImage+MultiFormat.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,5 @@
+XSym
+0052
+0161d129b30286073a21dd0be73117c2
+../../../SDWebImage/SDWebImage/Core/SDImageIOCoder.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

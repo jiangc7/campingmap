@@ -1,0 +1,5 @@
+XSym
+0056
+88f7a67d1093141c0072beab3697799f
+../../../SDWebImage/SDWebImage/Core/SDImageTransformer.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

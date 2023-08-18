@@ -1,0 +1,5 @@
+XSym
+0051
+f1bc0303e0ad1fd4c1ce4692adf4a9bb
+../../../WechatOpenSDK/OpenSDK1.8.7.1/WXApiObject.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

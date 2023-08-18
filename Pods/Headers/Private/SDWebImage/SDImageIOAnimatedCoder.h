@@ -1,0 +1,5 @@
+XSym
+0060
+7dcbee2b910d6faaecac9cf65ae50942
+../../../SDWebImage/SDWebImage/Core/SDImageIOAnimatedCoder.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

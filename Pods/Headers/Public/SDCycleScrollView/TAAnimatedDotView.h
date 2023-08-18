@@ -1,0 +1,5 @@
+XSym
+0098
+6c1df2b52ebb7bb6b5b9f010bb9489d0
+../../../SDCycleScrollView/SDCycleScrollView/Lib/SDCycleScrollView/PageControl/TAAnimatedDotView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

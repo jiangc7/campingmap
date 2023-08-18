@@ -1,0 +1,5 @@
+XSym
+0059
+bbf5fd56dd1adbe76da90904ac77119b
+../../../SDWebImage/SDWebImage/Core/NSImage+Compatibility.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

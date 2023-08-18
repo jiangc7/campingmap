@@ -1,0 +1,5 @@
+XSym
+0049
+14db95e1adfdf4be6d12616a367c8e58
+../../../SDWebImage/SDWebImage/Core/SDDiskCache.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
